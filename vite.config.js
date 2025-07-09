@@ -18,6 +18,7 @@ export default defineConfig({
     },
     // base: '/laventoryapp/', //กำหนด base path ของแอปพลิเคชัน
     // base: '/pedantic-booth.203-170-190-139.plesk.page/', //กำหนด base path ของแอปพลิเคชัน
+    base: '/build/', //กำหนด base path ของแอปพลิเคชัน
     build: {
         outDir: 'public/build', //กำหนด output directory สำหรับการ build
         emptyOutDir: true, //ล้าง output directory ก่อนการ build ใหม่
